@@ -6,6 +6,8 @@ import RandomColor from "./components/random-color";
 import StarRating from "./components/star-rating";
 import TreeView from "./components/tree-view";
 import menus from "./components/tree-view/data.js";
+import QRCodeGenerator from "./components/qr-code-generator";
+
 
 function App() {
   return (
@@ -26,7 +28,9 @@ function App() {
       {/*<LoadMoreData/>*/}
 
       {/**tree-view component */}
-      <TreeView menus={menus}/>
+      {/*<TreeView menus={menus}/>*/}
+
+      <QRCodeGenerator/>
     </div>
   );
 }
